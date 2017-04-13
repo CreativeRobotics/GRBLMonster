@@ -1,0 +1,23 @@
+GRBL Monster. An over the top PCB for GRBL designed for the SAM D21.
+
+•	Fully compatible with Arduino UNO and GRBL.
+•	Enhanced options for Sparkfun SAMD21 development board
+•	Four axis stepper drivers using POLOLU stepper boards (A,X,Z and R) with up to two drivers per axis. 
+  o	‘R’ axis drivers can be split in two to create a fifth axis when using the SAM D21 board
+•	Four limit switch inputs (X,Y,Z and R)
+•	DIP switches for micro step configuration (A,Y,Z and R)
+•	Two stepper boards per axis (total of 8).
+•	Stepper drivers are arranged in two groups of four:
+  o	Mounting holes for one 60mm cooling fan per group.
+  o	Individual or single power supply for each group.
+•	Four SPI headers for each axis to allow for SPI based stepper drivers.
+•	Spindle, coolant and probe headers.
+•	Transistor output option for driving a spindle relay.
+•	On board 12V regulator for cooling fans and relays.
+•	Additional header with SPI, UART, Hold, Resume and Reset pins for control buttons or pendant.
+•	Functional design:
+o	Easy to implement forced cooling for drivers.
+o	Power input, driver outputs, limit switches, spindle, coolant, probe and relay outputs are all on one edge of the PCB.
+o	USB connector, dip switches and pendant header are all on the opposite edge.
+
+
