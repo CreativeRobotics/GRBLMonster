@@ -16,8 +16,8 @@ GRBL Monster. An over the top PCB for GRBL designed for the SAM D21.
 •	On board 12V regulator for cooling fans and relays.
 •	Additional header with SPI, UART, Hold, Resume and Reset pins for control buttons or pendant.
 •	Functional design:
-o	Easy to implement forced cooling for drivers.
-o	Power input, driver outputs, limit switches, spindle, coolant, probe and relay outputs are all on one edge of the PCB.
-o	USB connector, dip switches and pendant header are all on the opposite edge.
+  o	Easy to implement forced cooling for drivers.
+  o	Power input, driver outputs, limit switches, spindle, coolant, probe and relay outputs are all on one edge of the PCB.
+  o	USB connector, dip switches and pendant header are all on the opposite edge.
 
 
